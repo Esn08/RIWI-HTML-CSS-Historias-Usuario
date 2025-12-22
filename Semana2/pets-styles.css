@@ -1,0 +1,85 @@
+
+.body{
+    overflow-x: hidden;
+}
+
+/****** HEADER ******/
+.header{
+    height: auto;
+}
+
+.article-pets{
+    margin: 2px 0;
+}
+
+.pets-logo{
+    max-width: 100%;
+    border-radius: 25px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.logo-text{
+    margin-left: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.link{
+    font-size: 22px;
+}
+
+/******* MAIN *******/
+.main{
+    margin-top: 30vh;
+}
+
+
+/******* SECTION PETS ******/
+.pets_section{
+    margin: 35vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.pets_article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #eaeaea;
+    max-width: 26vw;
+    height: auto;
+    padding: 20px 20px ;
+    border-radius: 20px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.8);
+    transition: all 1s ease;
+
+}
+
+.pets_article:hover{
+    transform: scale(1.02);
+    background-color: rgba(255, 129, 38, 0.11);
+    box-shadow: 7px 10px 10px #a7a7a7;
+    cursor: pointer;
+}
+
+.pets_p{
+    width: 90%;
+    height: 30vh;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 10px;
+}
+
+.pets_img{
+    border-radius: 20px;
+    max-width: 100%;
+}
