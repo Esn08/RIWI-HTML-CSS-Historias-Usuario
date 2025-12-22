@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Personal</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+<body>
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="header section">
+
+            <article class="article-logo">
+                <img src="./assets/Logo.png" alt="Logo" />
+                <span class="logo-text"> Portafolio Personal </span>
+            </article>
+
+            <!-- NAVIGATION BAR -->
+            <nav class="navbar">
+                <ol class="navbar-list">
+
+                    <li>
+                        <a class="link" href="#sobreMi"> Sobre mí </a>
+                    </li>
+
+                    <li>
+                        <a class="link" href="#proyectos"> Proyectos</a>
+                    </li>
+
+                    <li>
+                        <a class="link" href="#contacto"> Contacto</a>
+                    </li>
+
+                    <li>
+                        <a class="link" href="mascotas.html"> Mascotas</a>
+                    </li>
+
+                </ol>
+            </nav>
+
+        </header>
+
+        <!-- MAIN -->
+        <main class="main">
+
+            <!-- SECTIONS -->
+
+            <!-- ABOUT ME SECTION  -->
+            <section class="section hero-banner" id="sobreMi">
+
+                <!-- HERO ARTICLE -->
+                <article class="content">
+
+                    <h1>Portafolio</h1>
+                    <h2 class="h2 subtitle-h2">Sobre mi</h2>
+                    <p>
+                        Desarrollador de software entusiasta con dominio técnico en Python, JavaScript, HTML y CSS.
+                        He trabajado en el desarrollo de proyectos personales y académicos que abarcan desde la automatización
+                        de tareas hasta la creación de sitios web dinámicos. Busco aplicar mis habilidades analíticas
+                        y de resolución de problemas en un equipo profesional para contribuir al éxito de productos
+                        digitales innovadores.
+                    </p>
+
+                    <div class="buttons-hero-banner">
+                        <a href="#" class="button button-primary">Deja un mensaje</a>
+                        <a href="#" class="button button-secondary">Saber más</a>
+                    </div>
+                </article>
+
+                <!-- HERO IMAGEN -->
+                <div class="container-images-banner">
+                        <img
+                                src="./assets/Hero.png"
+                                alt="Imagen Principal"
+                                class="main-image"
+                        />
+                </div>
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section class="section-projects" id="proyectos">
+                <h2 class="title-h2">Proyectos</h2>
+
+                <ul class="section-projects__ul">
+                    <li class="section-projects__li">Proyecto 1</li>
+                    <li class="section-projects__li">Proyecto 2</li>
+                    <li class="section-projects__li">Proyecto 3</li>
+                    <li class="section-projects__li">Proyecto 4</li>
+                    <li class="section-projects__li">Proyecto 5</li>
+                </ul>
+
+            </section>
+
+
+            <!-- CONTACT SECTION  -->
+            <section class="section-contact" id="contacto">
+
+                <h2 class="title-h2">Contacto</h2>
+
+                <!-- FORM CONTACT -->
+                <form class="form-contact">
+
+                    <!-- FORM COLUMN 1 -->
+                    <div class="form-column">
+                        <label class="label" for="name"> Nombre completo</label>
+                        <input class="input" id="name" placeholder="Ingrese su nombre" type="text">
+
+                        <label class="label" for="email"> Email</label>
+                        <input type="email" class="input" id="email" placeholder="Ingrese su email">
+                        <button class="button button-secondary button-form"> Enviar</button>
+
+
+                    </div>
+
+                    <!-- FORM COLUMN 2 -->
+                    <div class="form-column">
+                        <label class="label" for="telephone"> Teléfono </label>
+                        <input type="text" class="input" id="telephone" placeholder="Ingrese su teléfono">
+
+                        <label class="label" for="message"> Mensaje</label>
+                        <input type="text" class="input" id="message" placeholder="Ingrese su mensaje">
+
+                        <button class="button button-secondary button-form" type="reset"> Limpiar</button>
+
+
+                    </div>
+
+                </form>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

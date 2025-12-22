@@ -1,0 +1,379 @@
+
+/* RESET STYLES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif, sans-serif;
+}
+
+/* BUTTONS AND FONT STYLES*/
+.title-h2 {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text-p {
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out 0.25s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.label, .input {
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+
+.button-primary {
+    background-color: rgb(255, 129, 38);
+    color: #fff;
+    border: 2px solid rgb(255, 129, 38);
+}
+
+.button-primary:hover {
+    background-color: rgba(255, 168, 109, 0.98);
+    color: black;
+    transform: scale(1.08);
+
+}
+
+.button-secondary {
+    color: #201d2e;
+    max-width: 50%;
+    border: 2px solid rgb(255, 129, 38);;
+}
+
+.button-secondary:hover {
+    background-color: rgb(255, 129, 38);;
+    color: #fff;
+    transform: scale(1.08);
+
+}
+
+/*********** CONTAINER MAIN **********/
+.container, .main{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif, serif;
+
+}
+
+.main{
+    margin-top: 50px;
+    padding: 30px 120px;
+
+}
+
+/************* HEADER ************/
+.header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    padding: 0 70px;
+    width: 100%;
+    background: #FFAA70;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 30px 30px;
+    height: 10vw;
+    z-index: 9999;
+}
+
+.article-logo {
+    float: left;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+        width: 200px;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+
+}
+
+.logo-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+}
+
+/******* NAVIGATION BAR ********/
+.navbar {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    ol {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin-left: 20px;
+
+            a {
+                text-decoration: none;
+                color: #333;
+                font-size: 18px;
+                font-weight: 600;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    scale: 2.2;
+                    color: white;
+                    text-decoration: underline;
+                }
+
+            }
+        }
+    }
+
+}
+
+/******** ABOUT ME SECTION ********/
+.hero-banner {
+
+    display: block;
+    min-height: 80vh;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    text-align: left;
+    margin-right: 5%;
+
+    h1, .subtitle-h2, p {
+        margin-bottom: 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: rgb(255, 129, 38);
+        font-family:  serif, sans-serif;
+        font-weight: 700;
+    }
+
+    .subtitle-h2 {
+        text-align: left;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: justify;
+        color: #333;
+        width: 80%;
+        line-height: 1.5;
+    }
+
+    .buttons-hero-banner {
+        display: block;
+        margin-top: 40px;
+
+    }
+}
+
+.container-images-banner{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    height: auto;
+
+    .main-image{
+        max-width: 110%;
+        border-radius: 15px;
+
+    }
+
+}
+
+
+/* ********** PROJECTS SECTION ********* */
+.section-projects {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.section-projects__li{
+    height: auto;
+    list-style: none;
+    font-size: 1.5vw;
+    margin: 40px 415px;
+    padding: 30px;
+    text-align: center;
+}
+
+.section-projects__li:hover{
+    cursor: pointer;
+    background-color: #FFAA70;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+/********* CONTACT SECTION ***********/
+.section-contact {
+    display: block;
+    margin: 100px auto;
+    width: 65%;
+    border-radius: 35px;
+    padding: 60px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    background: #f1f1f1;
+
+}
+
+.form-contact {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 10% 0 0 ;
+
+}
+
+.form-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 0 1%;
+
+}
+
+.input {
+    width: 12vw;
+    height: 4.5vh;
+    border: 1px solid black;
+}
+
+.input:active{
+    background-color: black;
+}
+
+.input:focus {
+    background-color: #ffefeb;
+
+    border: 2px solid rgb(255, 129, 38, 0.6 );
+    outline: none;
+}
+
+.label {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.button-form{
+    width: 150px;
+    margin-top: 50px;
+}
+
+
+/************ PETS CSS ************/
+
+/****** PETS HEADER ******/
+.header{
+    height: 220px;
+}
+
+.article-pets{
+    margin: 12px 0;
+}
+
+.pets-logo{
+    max-width: 100%;
+    border-radius: 25px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.logo-text{
+    margin-left: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.link{
+    font-size: 22px;
+}
+
+
+/******* PETS MAIN *******/
+.main{
+    margin-top: 30vh;
+}
+
+/******* PETS SECTION ******/
+.pets_section{
+    margin: 35vh 0;
+    display: block;
+    height: auto;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.pets_article{
+    display: inline-block;
+    vertical-align: middle;
+
+    gap: 30px;
+    background-color: #eaeaea;
+    max-width: 26vw;
+    height: auto;
+    margin: 0 20px;
+    padding: 20px 20px ;
+
+    border-radius: 20px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.pets_article:hover{
+    display: inline-block;
+    background-color: rgba(211, 211, 211, 0.99);
+    box-shadow: 7px 10px 10px #a7a7a7;
+    cursor: pointer;
+}
+
+.pets_p{
+    width: 90%;
+    height: 30vh;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 10px;
+}
+
+.pets_img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+
