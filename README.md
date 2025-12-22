@@ -30,4 +30,11 @@ designed to showcase software development skills, featured projects, and profess
 
 ## Project Structure
 
-```text/├── assets/          # Images and icons (Logo, Hero image, Project screenshots)├── index.html       # Main entry point (Landing page)├── mascotas.html    # Secondary page for Pets├── styles.css       # Main stylesheet├── styles.css       # Main stylesheet└── pets-styles.js   # Stylesheet for Pets page└── script.js        # Logic for interactivity```
+/
+├── assets/          # Images and icons (Logo, Hero image, Project screenshots)
+├── index.html       # Main entry point (Landing page)
+├── mascotas.html    # Secondary page for Pets
+├── styles.css       # Main stylesheet
+├── styles.css       # Main stylesheet
+└── pets-styles.js   # Stylesheet for Pets page
+└── script.js        # Logic for interactivity
