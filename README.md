@@ -24,8 +24,8 @@ designed to showcase software development skills, featured projects, and profess
 
 ##  How to Run
 
-1. **Clone the repository:**   git clone https://github.com/Esn08/RIWI-HTML-CSS-Historias-Usuario.git   ```2. **Navigate to the project folder:**   User Store
-      
+1. **Clone the repository:**   git clone https://github.com/Esn08/RIWI-HTML-CSS-Historias-Usuario.git
+2. **Navigate to the project folder:**  User Store folder   
 3. **Open the project:**   open the `index.html` file in your preferred web browser to view the site.
 
 ## Project Structure
