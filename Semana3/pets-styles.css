@@ -75,7 +75,7 @@
         height: 16rem;
     }
     .pets_section {
-        margin-top: 30vh;
+        margin-top: 35vh;
         gap: 20px;
     }
 
@@ -107,3 +107,4 @@
     border-radius: 20px;
     max-width: 100%;
 }
+
