@@ -252,7 +252,7 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    height: 70%;
+    height: 90%;
 
     @media (max-width: 768px) {
 
@@ -337,6 +337,7 @@
     justify-content: center;
     gap: 3vw;
     width: 100%;
+    margin-top: 7vh;
 }
 
 .skills-div{
@@ -781,4 +782,5 @@
         width: 40px;
     }
 }
+
 
